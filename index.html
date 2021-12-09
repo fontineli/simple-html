@@ -19,9 +19,15 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 </head>
 <body>
+    <h2><time-spent/></h2>
     <div class="wrapper">
-        <h2>Simple html page <current-year/></h2>
-        
+        <h2><render-content data-model="test"></render-content>: <current-year/></h2>
+        <input type="text" name="test" is="storage-input"/>
+    </div>
+
+    <div class="wrapper">
+        <h2><render-content data-model="bob"></h2>
+        <input type="text" name="bob" is="storage-input"/>
     </div>
 </body>
 </html>
